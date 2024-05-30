@@ -69,6 +69,8 @@ function extractPhoneNumbers() {
             }
         }
     });
+
+    return Array.from(phoneNumbers);
 }
 
 
